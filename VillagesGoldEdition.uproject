@@ -199,6 +199,16 @@
 			"Name": "GameSparks",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/0bb7b72905c64c7d86c4c430a42bc9c1"
+		},
+		{
+			"Name": "ConfigBPPlugin",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/72cafa6deb374cf48f12c8ef45ffa129"
+		},
+		{
+			"Name": "JSONParser",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/8eda577c5b594d6b990f91b8dec8a014"
 		}
 	],
 	"TargetPlatforms": [
