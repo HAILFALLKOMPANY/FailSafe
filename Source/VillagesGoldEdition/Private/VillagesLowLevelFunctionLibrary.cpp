@@ -64,3 +64,8 @@ ENetRole UVillagesLowLevelFunctionLibrary::GetActorRole(const AActor * Actor)
 
 	return ENetRole::ROLE_None;
 }
+
+void UVillagesLowLevelFunctionLibrary::ShutDown()
+{
+	GIsRequestingExit = true;
+}

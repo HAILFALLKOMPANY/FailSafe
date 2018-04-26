@@ -27,5 +27,9 @@ public:
 
 		UFUNCTION(BlueprintCallable, BlueprintPure, Category = "Replication")
 			static ENetRole GetActorRole(const AActor* Actor);
+
+		UFUNCTION(BlueprintCallable, Category = "Custom", meta = (HidePin = "WorldContextObject", DefaultToSelf = "WorldContextObject", Keywords = "Shut Down"))
+			static void ShutDown();
+
 		
 };

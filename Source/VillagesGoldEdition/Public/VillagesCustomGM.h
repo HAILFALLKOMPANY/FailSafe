@@ -13,8 +13,12 @@ UCLASS()
 class VILLAGESGOLDEDITION_API AVillagesCustomGM : public AGameMode
 {
 	GENERATED_BODY()
-	
-	
+
+		UFUNCTION(BlueprintCallable)
+		virtual void ReturnToMainMenuHost()  override;
+
+	//UFUNCTION(BlueprintCallable)
+		//virtual void GameEnding()  override;
 	
 	
 };

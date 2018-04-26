@@ -2,6 +2,7 @@
 
 #include "VillagesCustomGM.h"
 
-
-
-
+void AVillagesCustomGM::ReturnToMainMenuHost()
+{
+	Super::ReturnToMainMenuHost();
+}

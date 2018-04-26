@@ -21,7 +21,8 @@ public class VillagesGoldEdition : ModuleRules
             "GameplayTags",
             "UMG",
             "Slate",
-            "GameSparks"
+            "GameSparks",
+            "StomtPlugin"
         });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
