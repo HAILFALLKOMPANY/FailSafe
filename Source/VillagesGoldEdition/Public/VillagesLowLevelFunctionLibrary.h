@@ -30,6 +30,5 @@ public:
 
 		UFUNCTION(BlueprintCallable, Category = "Custom", meta = (HidePin = "WorldContextObject", DefaultToSelf = "WorldContextObject", Keywords = "Shut Down"))
 			static void ShutDown();
-
 		
 };
